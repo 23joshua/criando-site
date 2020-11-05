@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bower": "^1.8.8"
+    "bower": "^1.8.8",
+    "breakpoint-sass": "^2.7.1",
+    "font-awesome": "^4.7.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
-    "gulp-watch": "^5.0.1",
-    "gup": "^2.0.4"
+    "gulp-watch": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

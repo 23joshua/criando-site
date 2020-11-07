@@ -1,0 +1,45 @@
+#feature
+	height: auto
+	width: 100vw
+	display: grid
+	place-items: center
+	background: $pink
+	h1
+		font-size: 4rem
+		color: #fff
+		margin: 2rem 0
+	.card-container
+		width: 90vw
+		display: flex
+		justify-content: space-around
+		flex-wrap: wrap
+		margin: 2rem 0
+		.card
+			width: 25vw
+			height: 70vh
+			margin: .1rem
+			background: #fff
+			&:hover
+				transform: translateY(3rem)
+				box-shadow: 0 0 1rem #333
+			img
+				width: 100%
+				height: 45%
+				object-fit: cover
+			.content
+				height: 50%
+				width: 100%
+				text-align: center
+				h1
+					color: $pink
+					font-size: 2.5rem
+					margin: 1rem 0
+				p
+					font-size: 1.5rem
+					padding: .5rem
+					line-height: 1.4
+					font-weight: bold	
+				a
+					button
+						@include button()
+						margin: 1rem 0		

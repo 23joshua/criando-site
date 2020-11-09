@@ -1,0 +1,39 @@
+#about
+	width: 100%
+	height: auto
+	display: flex
+	justify-content: space-around
+	img
+		margin: 5rem 15rem
+		img
+		width: 30rem
+	.content
+		width: 90vw
+		h1
+			font-size: 4rem
+			margin: 3rem 0 
+			color: $pink
+		p
+			font-size: 2rem
+			font-weight: bold
+			padding-right: 6rem
+		.buttons
+			padding-right: 2rem
+			a
+				button
+					@include button()
+					margin: 2rem 2rem 2rem 0
+@media (max-width: 768px)
+	#about									
+		flex-flow: column 
+		align-items: center
+		.img
+			img
+				width: 70vw
+		.content
+			text-align: center
+			p
+				padding: 2rem
+			.buttons
+				padding: 0	
+				

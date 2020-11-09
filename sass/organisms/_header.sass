@@ -26,7 +26,6 @@ header
 	left: 0
 	padding: 2rem 3rem
 	z-index: 10
-	// background: blue
 	nav
 		ul
 			list-style: none
@@ -56,6 +55,14 @@ header
 				color: #fff
 				span
 					color: $pink
+	.nav-toggle
+		left: 0				
+	.fa-times
+.active
+	background: #333
+	box-shadow: 0 .1rem .3rem #000
+	padding: 1rem					
+		transform: rotateZ(180deg)
 
 
 @media (max-width: 991px) 
@@ -63,9 +70,7 @@ header
 		font-size: 50%
 @media (max-width: 768px)
 	html
-		font-size: 40%
-	header
-		background: green			
+		font-size: 40%		
 @media (max-width: 620px)
 	header 			
 		.fa-bars
